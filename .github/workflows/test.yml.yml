@@ -5,6 +5,7 @@ on:
       - main
       - 'dev-diva'
       - 'dews-**'
+      - angela
     paths:
       - '.github/workflows/**'
 jobs:
