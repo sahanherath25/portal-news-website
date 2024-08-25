@@ -4,9 +4,15 @@
 /node_modules
 /.pnp
 .pnp.js
+.idea
 
 # testing
 /coverage
+
+#Other files
+*.zip
+*.txt
+*.rar
 
 # production
 /build
