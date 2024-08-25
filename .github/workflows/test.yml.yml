@@ -4,7 +4,9 @@ on:
     branches:
       - main
       - 'dev-diva'
-      - 'devs-**'
+      - 'dev-**'
+    paths-ignore:
+      '.github/workflows/**''
 jobs:
   test:
     runs-on: ubuntu-latest
