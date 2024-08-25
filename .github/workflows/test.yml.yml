@@ -4,9 +4,9 @@ on:
     branches:
       - main
       - 'dev-diva'
-      - 'dews-**'
+      - 'dev-**'
       - angela
-    paths:
+    paths-ignore:
       - '.github/workflows/**'
 jobs:
   test:
