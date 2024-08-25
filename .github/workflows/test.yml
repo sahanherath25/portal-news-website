@@ -6,7 +6,7 @@ on:
       - 'dev-diva'
       - 'dev-**'
       - angela
-    paths:
+    paths-ignore:
       - '.github/workflows/**'
 jobs:
   test:
